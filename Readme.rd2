@@ -1,0 +1,65 @@
+Passo a Passo: Criar uma instância de Azure SQL Database
+Acesse o portal do Azure
+
+Link: https://portal.azure.com
+
+Faça login com sua conta Microsoft.
+
+Crie um recurso do tipo "SQL Database"
+
+Clique em "Criar um recurso" > "Banco de Dados" > "SQL Database".
+
+Escolha ou crie um Grupo de Recursos.
+
+Defina um nome para o banco de dados.
+
+Crie um servidor lógico
+
+Clique em "Criar novo".
+
+Informe:
+
+Nome do servidor (único globalmente)
+
+Nome de usuário administrador
+
+Senha e confirmação
+
+Região (ex: "Brazil South")
+
+Escolha a camada de desempenho
+
+Selecione o modelo de compra (DTU ou vCore).
+
+Escolha uma camada como Basic, Standard, ou Premium (pode usar a gratuita para testes se disponível).
+
+Defina o tamanho de armazenamento.
+
+Configuração de rede
+
+Defina se deseja acesso público ao banco.
+
+Adicione seu IP à regra de firewall para permitir conexões.
+
+Habilite autenticação SQL (usuário/senha).
+
+Revisar e criar
+
+Clique em "Revisar + criar".
+
+Aguarde a validação e clique em "Criar".
+
+Conectar ao banco
+
+Copie a string de conexão.
+
+Use ferramentas como Azure Data Studio ou SQL Server Management Studio (SSMS).
+
+Conecte com o nome do servidor, login e senha definidos.
+
+📝 Dicas Rápidas
+Use a camada "Basic" para testes e economizar créditos.
+
+Não esqueça de habilitar o IP da sua máquina para acesso externo.
+
+Você pode escalar verticalmente o desempenho depois, sem perder dados.
